@@ -1,0 +1,100 @@
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #FFF8F3;
+    padding-top: 50Px;
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left 50px,bottom right;
+}   
+.logo{
+    font-size: 45px;
+    font-weight: 800;
+}
+.logo-color{
+    color: #FD6E0A;
+}
+/* .nav{
+    display: flex;
+} */
+nav{
+    width: 70%;
+    max-width: 1140px;
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    justify-content: space-between; 
+    align-items: center;
+ 
+}
+nav .meno{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+nav li{
+    /* display: inline; */
+    /* margin-right: 30px; */
+}
+nav .meno a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    
+ }
+ .btn{
+    /* width: 150px;
+    height: 65px; */
+    font-size: 20px;
+    color: white;
+    background-color: #FD6E0A ;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    padding:18px 30px ;
+ }
+ /* hero section */
+ .banner{
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 47px 38px 0px 230px;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .banner-contan{
+    max-width: 585px;
+ }
+ .banner-contan h2{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin-bottom: 5px;
+ }
+ .banner-contan h1{
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-weight: 800;
+    color: #181818;
+
+ }
+.banner-contan p{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.banner-image img{
+    max-width: 585px;
+    /* width: 800px; */
+    vertical-align:middle ;
+}
