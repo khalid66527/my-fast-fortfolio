@@ -64,6 +64,15 @@ nav .meno a{
     font-weight: bold;
     padding:18px 30px ;
  }
+ .btn2{
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+    background-color: white;
+    padding: 16px 30px;
+    font-weight:bold;
+ }
  /* hero section */
  .banner{
     /* border: 1px solid red; */
