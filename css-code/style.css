@@ -121,6 +121,7 @@ nav .meno a{
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 .section-heading h2{
     font-size: 35px;
@@ -146,4 +147,36 @@ nav .meno a{
 .about-info .about-info-card h4{
     font-size: 20px;
 
+}
+.slills{
+    /* padding-top: 130px; */
+}
+/* skills-container */
+.slills .skills-container{
+    width: 70%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.slills .skills-container .skills-box{
+    display: flex;
+    gap: 24px;
+}
+.skills-box .skills-card{
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.177);
+}
+.skills-card img{
+    margin-bottom: 30px;
+    max-width: 44px;
+}
+.skills-card h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #181818;
+}
+.skills-card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #757575;
 }
