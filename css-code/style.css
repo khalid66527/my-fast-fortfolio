@@ -107,8 +107,8 @@ nav .meno a{
     /* width: 800px; */
     vertical-align:middle ;
 }
-.about{
-    margin: 130px ;
+.about,.slills,.resume{
+    padding-top: 130px ;
 }
 .about .about-container{
     width: 70%;
@@ -179,4 +179,52 @@ nav .meno a{
     font-size: 16px;
     line-height: 20px;
     color: #757575;
+}
+/* .resume{
+    width: 70%;
+    max-width: 1140px;
+    margin:  auto;
+
+} */
+.resume .resume-container{
+    width: 70%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+
+}
+.resume-container .section-title{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-containerc .resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #474747;
+}
+.card-info{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.card-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+    line-height: 28px;
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.button{
+    text-align: center;
+    margin-top: 60px;
 }
