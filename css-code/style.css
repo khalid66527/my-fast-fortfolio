@@ -103,7 +103,11 @@ nav .meno a{
     margin-bottom: 30px;
 }
 .banner-image img{
-    max-width: 585px;
+    width: 900px;
+    height: 730px;
+    margin-right: -150px;
+    
+    /* max-width: 585px; */
     /* width: 800px; */
     vertical-align:middle ;
 }
