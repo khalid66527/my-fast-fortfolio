@@ -3,188 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Fast Fortfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css-code/style.css">
+    <title>Md Khalid | Professional Web Developer Portfolio</title>
+    <meta name="description" content="Portfolio website of Md Khalid, a passionate Frontend Web Developer specializing in modern JavaScript, React, Node.js, and web design.">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css-code/style.css">
 </head>
 <body class="font-open-sans">
-    <header class="header">
-        <nav class="nav">
-            <div>
-                <h2 class="logo">Kh<span class="logo-color">a</span>lid</h2>
-            </div>
-            <ul class="meno">
-            
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Blog</a></li>
-                <li><button class="btn">Hire Me</button></li>
-            </ul>
-        </nav>
-          <section>
-                <div class="banner">
-                    <div class="banner-contan">
-                        <h2>Hi, I am</h2>
-                        <h1>Md Khalid</h1>
-                        <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-                        <div>
-                        <button class="btn"> <i class="fa-solid fa-download"></i>  Download CV</button>
-                        <button class="btn2"><i class="fa-solid fa-phone-volume"></i> Contact</button>
-                        </div>
+
+    <!-- Header & Hero Section -->
+    <header class="header" id="home">
+        <!-- Sticky Navigation Bar -->
+        <div class="header-nav">
+            <nav>
+                <div>
+                    <a href="#home" class="logo">Kh<span class="logo-color">a</span>lid</a>
+                </div>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="meno">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact" class="btn" style="padding: 10px 24px; font-size: 16px;">Hire Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Hero Banner Content -->
+        <section>
+            <div class="banner">
+                <div class="banner-contan reveal reveal-left">
+                    <h2 class="banner-subtitle">Hi, I am</h2>
+                    <h1>Md Khalid</h1>
+                    <div class="typing-wrapper">
+                        <span id="typing-text"></span>
                     </div>
-                    <div class="banner-image">
-                        <img src="./images/jkjubayer-removebg-preview.png" alt="">
+                    <p>Shot what able cold new see hold. Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
+                    <div class="banner-buttons">
+                        <a href="#contact" class="btn">
+                            <i class="fa-solid fa-download"></i> Download CV
+                        </a>
+                        <a href="#contact" class="btn2">
+                            <i class="fa-solid fa-phone"></i> Contact Me
+                        </a>
                     </div>
                 </div>
-            </section>
+                <div class="banner-image reveal reveal-right">
+                    <img src="./images/jkjubayer-removebg-preview.png" alt="Md Khalid - Web Developer">
+                </div>
+            </div>
+        </section>
     </header>
-    <section class="about">
-        <div class="about-container">
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container reveal reveal-scale">
             <div class="section-heading">
                 <h2>About Me</h2>
-                <p>I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
+                <p>I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets clients requirements is my mission.</p>
             </div>
-           <div class="about-info">
-                 <div class="about-info-card">
-                <p>Name:</p>
-                <h4>Khalid</h4>
+            <div class="about-info">
+                <div class="about-info-card reveal reveal-up delay-1">
+                    <p>Name:</p>
+                    <h4>Md Khalid</h4>
+                </div>
+                <div class="about-info-card reveal reveal-up delay-2">
+                    <p>Email:</p>
+                    <h4>jkjubayer143@gmail.com</h4>
+                </div>
+                <div class="about-info-card reveal reveal-up delay-3">
+                    <p>Date of birth:</p>
+                    <h4>20 February</h4>
+                </div>
+                <div class="about-info-card reveal reveal-up delay-4">
+                    <p>From:</p>
+                    <h4>Netrokona, Bangladesh</h4>
+                </div>
             </div>
-            <div class="about-info-card">
-                <p>Email:</p>
-                <h4>jkjubayer143@gmailcom</h4>
-            </div>
-            <div class="about-info-card">
-                <p>Date fo bith:</p>
-                <h4>20 Febroary</h4>
-            </div>
-            <div class="about-info-card">
-                <p>Form:</p>
-                <h4>Netrokon</h4>
-            </div>
-           </div>
         </div>
     </section>
-    <section class="slills">
+
+    <!-- Skills Section -->
+    <section class="slills" id="skills">
         <div class="skills-container">
-            <div class="section-heading">
-                <h2>What I do</h2>
-                <p>I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+            <div class="section-heading reveal reveal-up">
+                <h2>What I Do</h2>
+                <p>I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
             </div>
             <div class="skills-box">
-                <div class="skills-card">
-                    <img src="./images/icons/js.png" alt="">
+                <div class="skills-card reveal reveal-up delay-1">
+                    <div class="icon-wrapper">
+                        <img src="./images/icons/js.png" alt="Vanilla JavaScript Icon">
+                    </div>
                     <h3>Vanilla JavaScript</h3>
-                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p>Expertise in modern ES6+ JavaScript, DOM manipulation, asynchronous programming, APIs integration, and modular script development.</p>
                 </div>
-                <div class="skills-card">
-                    <img src="/images/icons/react.png" alt="">
-                    <h3>React</h3>
-                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                <div class="skills-card reveal reveal-up delay-2">
+                    <div class="icon-wrapper">
+                        <img src="./images/icons/react.png" alt="React Icon">
+                    </div>
+                    <h3>React JS</h3>
+                    <p>Building high-performance single page applications with reusable component architectures, Hooks, state management, and modern UI libraries.</p>
                 </div>
-                <div class="skills-card">
-                    <img src="./images/icons/nodejs.png" alt="">
+                <div class="skills-card reveal reveal-up delay-3">
+                    <div class="icon-wrapper">
+                        <img src="./images/icons/nodejs.png" alt="Node.js Icon">
+                    </div>
                     <h3>Node.js</h3>
-                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p>Developing scalable backend RESTful APIs, server-side logic, routing middleware, and asynchronous microservices with Express.</p>
                 </div>
-                <div class="skills-card">
-                    <img src="./images/icons/mongo.png" alt="">
+                <div class="skills-card reveal reveal-up delay-4">
+                    <div class="icon-wrapper">
+                        <img src="./images/icons/mongo.png" alt="MongoDB Icon">
+                    </div>
                     <h3>MongoDB</h3>
-                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p>Designing NoSQL document databases, schemas, efficient aggregation pipelines, and secure database indexing for production apps.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="resume">
-            <div class="section-heading">
-                <h2>A summary of My Resume</h2>
+
+    <!-- Resume Section -->
+    <section class="resume" id="resume">
+        <div class="skills-container">
+            <div class="section-heading reveal reveal-up">
+                <h2>A Summary of My Resume</h2>
             </div>
             <div class="resume-container">
-                <div class="educaton">
-                    <h2 class="section-title">My Education</h2>
-                
-                    <div class="resume-card">
-                        <h3 class="card-title">Diploma in Computer Engineering</h3>
-                        <p class="card-info">Harvard University / 2015 - 2017</p>
-                        <p class="card-text">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                <!-- Education Timeline -->
+                <div class="educaton reveal reveal-left">
+                    <h3 class="section-title"><i class="fa-solid fa-graduation-cap"></i> My Education</h3>
+                    <div class="resume-timeline">
+                        <div class="resume-card">
+                            <h4 class="card-title">Diploma in Computer Engineering</h4>
+                            <span class="card-info">Harvard University / 2015 - 2017</span>
+                            <p class="card-text">Specialized in software engineering principles, web algorithms, data structures, and interactive application design.</p>
+                        </div>
+                        <div class="resume-card">
+                            <h4 class="card-title">Bachelor in Computer Science</h4>
+                            <span class="card-info">Harvard University / 2017 - 2020</span>
+                            <p class="card-text">Focused on advanced web development architectures, system design, cloud computing, and user experience research.</p>
+                        </div>
+                        <div class="resume-card">
+                            <h4 class="card-title">Master in Web Technologies</h4>
+                            <span class="card-info">Harvard University / 2020 - 2022</span>
+                            <p class="card-text">Deep-dive into modern JavaScript engines, full-stack frameworks, progressive web apps, and web accessibility standards.</p>
+                        </div>
                     </div>
-                    <hr>
-                    <div class="resume-card">
-                        <h3 class="card-title">Diploma in Computer Engineering</h3>
-                        <p class="card-info">Harvard University / 2015 - 2017</p>
-                        <p class="card-text">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                    </div>
-                    <hr>
-                    <div class="resume-card">
-                        <h3 class="card-title">Diploma in Computer Engineering</h3>
-                        <p class="card-info">Harvard University / 2015 - 2017</p>
-                        <p class="card-text">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                    </div>
-                   
-         
-                
                 </div>
-                <div class="Experience">
-                    <h2 class="section-title">My Experience</h2>
-                
-                    <div class="resume-card">
-                        <h3 class="card-title">Sr. Font End Developer</h3>
-                        <p class="card-info">Apple Inc / 2020 - Current</p>
-                        <p class="card-text">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+
+                <!-- Experience Timeline -->
+                <div class="Experience reveal reveal-right">
+                    <h3 class="section-title"><i class="fa-solid fa-briefcase"></i> My Experience</h3>
+                    <div class="resume-timeline">
+                        <div class="resume-card">
+                            <h4 class="card-title">Sr. Front End Developer</h4>
+                            <span class="card-info">Apple Inc / 2020 - Current</span>
+                            <p class="card-text">Leading front-end development teams, crafting interactive UI design systems, and optimizing web performance across devices.</p>
+                        </div>
+                        <div class="resume-card">
+                            <h4 class="card-title">Jr. Front End Developer</h4>
+                            <span class="card-info">Dribbble Inc / 2018 - 2020</span>
+                            <p class="card-text">Collaborated closely with visual designers to build pixel-perfect interactive web prototypes and responsive design interfaces.</p>
+                        </div>
+                        <div class="resume-card">
+                            <h4 class="card-title">HTML / CSS Developer</h4>
+                            <span class="card-info">Adobe Inc / 2017 - 2018</span>
+                            <p class="card-text">Developed cross-browser compatible HTML5/CSS3 templates, micro-animations, and client-facing web portals.</p>
+                        </div>
                     </div>
-                    <hr>
-                    <div class="resume-card">
-                        <h3 class="card-title">Jr. Font End Developer</h3>
-                        <p class="card-info">Dribbble Inc / 2018 - 2022</p>
-                        <p class="card-text">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                    </div>
-                    <hr>
-                    <div class="resume-card">
-                        <h3 class="card-title">HTML Developer</h3>
-                        <p class="card-info">Adobe Inc / 2017 - 2018</p>
-                        <p class="card-text">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                    </div>
-                    
-         
-                
                 </div>
-        </div>
-        <div class="button"> 
-             <button class="btn">
-            <i class="fa-solid fa-download"></i> Download CV
-            </button>
+            </div>
+            <div class="button-center reveal reveal-up"> 
+                <a href="#contact" class="btn">
+                    <i class="fa-solid fa-download"></i> Download CV
+                </a>
+            </div>
         </div>
     </section>
     
-    <footer class="footer">
-        <section class="footer-container">
-            <div class="socile">
-                <h2>Lets Connect</h2>
-                <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
-                <div class="icons">
-                    <a href=""><img src="./images/icons/facebook.png" alt=""></a>
-                    <a href=""><img src="./images/icons/twitter.png" alt=""></a>
-                    <a href=""><img src="./images/icons/insta.png" alt=""></a>
-
+    <!-- Footer / Contact Section -->
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="socile reveal reveal-left">
+                <h2>Let's Connect</h2>
+                <p>Please fill out the form on this section to contact me or call between 9:00 A.M and 8:00 P.M ET, Monday through Friday.</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="./images/icons/facebook.png" alt="Facebook"></a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><img src="./images/icons/twitter.png" alt="Twitter"></a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="./images/icons/insta.png" alt="Instagram"></a>
                 </div>
             </div>
-            <form action="" class="form">
-                <h2>Let’s Message me</h2>
-                <div class="">
-                    <input type="text" placeholder="Your Name">
+            <form class="form reveal reveal-right" action="#" method="POST">
+                <h2>Let's Message Me</h2>
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required aria-label="Your Name">
                 </div>
-                <div class="">
-                    <input type="text" placeholder="Your Email">
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required aria-label="Your Email">
                 </div>
-                <div class="">
-                    <textarea rows="8" name="" id="" placeholder="Message"></textarea>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Message" required aria-label="Message"></textarea>
                 </div>
-                <input type="submit" class="btn">
+                <button type="submit" class="btn" style="width: 100%; justify-content: center;">
+                    <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
             </form>
-        </section>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Md Khalid. All rights reserved. Designed with passion & interactive animations.</p>
+        </div>
     </footer>
 
+    <!-- Back to Top Floating Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JavaScript -->
+    <script src="./js/main.js"></script>
 </body>
 </html>
